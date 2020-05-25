@@ -8,6 +8,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.google.android.material.snackbar.Snackbar;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,6 +22,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ImageButton iBtn = findViewById(R.id.image_Button);
-        iBtn.setOnClickListener( btn -> {  /* code goes here */  });
+        iBtn.setOnClickListener( btn -> {
+
+          //  Toast.makeText(this, "Hello world!",Toast.LENGTH_LONG).show();
+            Snackbar.make(iBtn , "Message String", Snackbar.LENGTH_INDEFINITE).show();
+
+        });
     }
 }

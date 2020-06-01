@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">InClassExamples_S20</string>
+
+    <string name="sendEmail">Send an email</string>
+    <string name="viewURL">Go to a URL</string>
+    <string name="call">Make a phone call</string>
 </resources>

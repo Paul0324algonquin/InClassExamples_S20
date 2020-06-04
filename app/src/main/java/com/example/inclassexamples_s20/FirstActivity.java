@@ -29,7 +29,6 @@ public class FirstActivity extends AppCompatActivity {
 
         //when you click the button, start the next activity:
         secondButton.setOnClickListener( click -> startActivity( nextPage ));
-
     }
 
     @Override

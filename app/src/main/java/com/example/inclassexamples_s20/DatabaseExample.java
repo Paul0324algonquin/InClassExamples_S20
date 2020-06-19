@@ -202,7 +202,7 @@ public class DatabaseExample extends AppCompatActivity {
             return newView;
         }
 
-        //last week we returned (long) position. Now we return the object's database id that we get from line 73
+        //last week we returned (long) position. Now we return the object's database id that we get from line 71
         public long getItemId(int position)
         {
             return getItem(position).getId();

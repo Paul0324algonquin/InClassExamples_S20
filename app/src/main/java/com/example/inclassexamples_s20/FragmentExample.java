@@ -46,7 +46,7 @@ public class FragmentExample extends AppCompatActivity {
                 getSupportFragmentManager()
                         .beginTransaction()
                         .replace(R.id.fragmentLocation, dFragment) //Add the fragment in FrameLayout
-                        .commit(); //actually load the fragment.
+                        .commit(); //actually load the fragment. Calls onCreate() in DetailFragment
             }
             else //isPhone
             {

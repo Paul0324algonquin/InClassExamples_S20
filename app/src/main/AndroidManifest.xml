@@ -14,7 +14,7 @@
         android:theme="@style/AppTheme">
 
         <!-- This activity is part of your application: -->
-        <activity android:name=".MainActivity">
+        <activity android:name=".MenuExample">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
